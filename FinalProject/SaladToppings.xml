@@ -1,0 +1,141 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+
+<question text="Is it a type of vegetable?">
+		<answer user_answer = "yes">
+			<question text = "Is it green?">
+				<answer user_answer = "yes">
+					<question text = "Does it look like a flower?">
+						<answer user_answer = "yes">
+							<thing value = "broccoli"/>
+						</answer>
+						<answer user_answer = "no">
+							<thing value = "cucumber"/>
+						</answer>
+					</question>
+				</answer>
+				
+				<answer user_answer = "no">
+					<question text = "Is it yellow?">
+						<answer user_answer = "yes">
+							<thing value = "corn" />
+						</answer>
+						<answer user_answer = "no">
+							<thing value = "carrots"/>
+						</answer>
+					</question>
+				</answer>
+			</question>
+		</answer>
+		
+	
+		<answer user_answer = "no">
+			<question text = "Is it a type of protein?">
+			
+				<answer user_answer = "yes">
+					<question text = "Is it a type of bean?">
+						<answer user_answer = "yes">
+							<question text = "Is it yellow?">
+								<answer user_answer = "yes">
+									<thing value = "chicpea" />
+								</answer>							
+								
+								
+								<answer user_answer = "no">
+									<question text = "Is it green?">
+										<answer user_answer = "yes">
+											<thing value = "edamame"/>
+										</answer>
+										
+										<answer user_answer = "no">
+											<question text = "Is it black?">
+												<answer user_answer = "yes">
+													<thing value = "blackbean"/>
+												</answer>
+												
+												<answer user_answer = "no">
+													<thing value = "tofu" />
+												</answer>
+											</question>
+										</answer>
+									
+									</question>
+								</answer>
+								
+							</question>
+						</answer>
+						
+						
+						<answer user_answer = "no">
+							<question text = "Is it nuts?">
+								<answer user_answer = "yes">
+									<thing value = "almond"/>
+								</answer>					
+							
+								<answer user_answer = "no">
+									<question text = "Is it meat?">
+										<answer user_answer = "yes">
+											<question text = "Is it seafood?">
+												<answer user_answer = "yes">
+													<thing value = "salmon"/>
+												</answer>
+												
+												<answer user_answer = "no">
+													<thing value = "chicken"/>
+												</answer>
+											</question>
+										
+										</answer>
+									
+										<answer user_answer = "no">
+											<thing value ="eggs"/>
+										</answer>
+			
+									</question>
+									
+								</answer>
+							
+							</question>
+							
+						</answer>
+					
+					</question>			
+				
+				</answer>
+				
+				
+				
+				<answer user_answer = "no">
+					<question text = "Is it carb?">
+						<answer user_answer = "yes">
+							<thing value = "crouton"/>
+						</answer>
+						
+						<answer user_answer = "no">
+							<question text = "Is it a type of fruit?">
+								<answer user_answer = "yes">
+									<question text = "Is it red?">
+										<answer user_answer = "yes">
+											<thing value = "apple"/>
+										</answer>
+										<answer user_answer = "no">
+											<thing value = "orange"/>
+										</answer>
+									</question>
+								</answer>
+								<answer user_answer = "no">
+									<thing value = "olive"/>
+								</answer>
+							</question>
+						</answer>
+					
+					
+					</question>
+			
+				</answer>
+			</question>
+		</answer>
+		
+</question>
+
+	
+		
