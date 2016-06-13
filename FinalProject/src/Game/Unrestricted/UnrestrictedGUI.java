@@ -73,7 +73,7 @@ public class UnrestrictedGUI extends JPanel{
 	 */
 	public static void main(String[] args){
 		//initialize a new JFrame 
-		JFrame gameFrame = new JFrame("Moe's Salad Toppings 20 Questions");
+		JFrame gameFrame = new JFrame("Salad Toppings 20 Questions");
 		gameFrame.add(new UnrestrictedGUI() );
 		//set the size of the frame
 		gameFrame.setSize(600,700);
